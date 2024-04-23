@@ -1,0 +1,54 @@
+def __init__(self):
+    self.__atributo__ = 
+# para definir siempre dos andercords adelante y atras (cuestion de notacion)
+Paradigma de programacion: 
+                         Estructurado
+                           OOP
+                           AOP
+                           Web
+                         Imperativo
+                         Funcional
+Que es un paradigma de programacion? Es un conjunto de reglas de programacion
+# Tiobe index: Nos habla del lenguaje de programación o del lenguaje en el que se han escrito la mayoría de las líneas de código en determinado tiempo.
+OOP: Tipo de lenguaje unico.
+la OOP esta en: En el cerebro de uno.
+
+Como se define un Objeto en python?
+
+Variable = Miclase(par1, par2)
+# El objeto es Miclase(par1, par2)
+# Referencia es Variable
+
+23 de Abril pregunto si esta claro 
+30 de Octubre espero decir lo mismo (yo Ignacio Aguilera)
+
+persona = Persona() # Crea un objeto? si
+persona = Persona() # sobre escribiendo la variable, sigue existiendo pero no esta referenciada. 
+
+Snake_case --> esto_es_una_variable
+
+CamelCase --> EstoEsUnaClase
+def __init__(self, nombre: str, apellido: str, du: int):
+el : str - Especifica el tipo de dato el :str o : int  es Referencial
+
+# Un parametro se vuelvo optativo si le pongo un valor por defecto
+
+# Que es encapsulamiento?
+El encapsulamiento es uno de los conceptos fundamentales en la programación orientada a objetos (OOP). Se refiere a la idea de agrupar datos (variables) y métodos (funciones) que operan en esos datos en una sola unidad, llamada clase. El objetivo principal del encapsulamiento es ocultar el estado interno de un objeto y restringir el acceso a ciertos componentes, permitiendo solo el acceso controlado a través de métodos.
+
+Hay tres niveles de encapsulamiento en la mayoría de los lenguajes de programación orientada a objetos:
+
+1. **Público**: Los miembros públicos de una clase (métodos y variables) son accesibles desde cualquier parte del programa. Se pueden llamar desde fuera de la clase.
+
+2. **Protegido (protected)**: Los miembros protegidos de una clase solo son accesibles desde la clase misma y sus subclases (herencia). Esto significa que las clases que heredan de la clase base pueden acceder a estos miembros, pero otras partes del programa no pueden.
+
+3. **Privado (private)**: Los miembros privados de una clase solo son accesibles desde la propia clase. Ni las subclases ni otras partes del programa pueden acceder directamente a estos miembros. Solo los métodos de la propia clase pueden acceder a ellos.
+
+El encapsulamiento permite mantener el estado interno de un objeto seguro y protegido, lo que contribuye a la modularidad, la seguridad y la reutilización del código. Al ocultar los detalles de implementación, el encapsulamiento también promueve una mejor organización y mantenibilidad del código.
+
+Es como una caja negra donde se agregan cosas, los de afuera no saben que pasa en esa caja negra.
+
+clase ---> Deberia haber una parte oculta 
+      ---> parte publica # se le conoce como: Interface (con quien puedo mensajearme)
+Los atributos no pueden ser publicos.
+Si accedo a los atributos en python se RECURSA!
